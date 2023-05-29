@@ -43,8 +43,8 @@ CONTAINER ID   IMAGE         COMMAND     CREATED              STATUS            
 
 ```
 
-![cms_ls](https://github.com/Nisha-Sugathan/Docker_CMD_ENTRYPOINT/assets/134600837/1aec3e0b-e6c5-48de-813e-be9338de87a6)
 
+![entry_error](https://github.com/Nisha-Sugathan/Docker_CMD_ENTRYPOINT/assets/134600837/b2296b67-552d-4c59-800b-96cd2860db6f)
 
 ### Creating docker image with ENTRYPOINT
  cat Dockerfile 
