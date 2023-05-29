@@ -90,7 +90,7 @@ FROM alpine:latest
 ENTRYPOINT ["date"]
 CMD ["+%F"]
 ```
-###create container for new dockerfile
+### create container for new dockerfile
 ```
 docker build -t first_image:entry_cmd .
 
@@ -98,3 +98,8 @@ docker container run --name c9 first_image:entry_cmd
 
 docker container run --name c10 first_image:entry_cmd +%D
 ```
+
+### OUTPUT
+![entry_cmd](https://github.com/Nisha-Sugathan/Docker_CMD_ENTRYPOINT/assets/134600837/bd444cd8-a022-4a53-9cfd-0c9e1f04f4f7)
+
+
