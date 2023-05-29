@@ -18,10 +18,11 @@ sudo usermod -a -G docker ec2-user
 
 ### Creating docker image with CMD
  cat Dockerfile 
-``````
+```
 FROM alpine:latest
 CMD ["date"]
 ```
+### Docker build
 ```
 docker build -t first_image:cmd .
 ```
